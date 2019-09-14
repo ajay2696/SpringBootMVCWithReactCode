@@ -11,23 +11,20 @@ Below is useful link to config babel and webpack
 Getting Started :
   Prerequisites: node,jdk,maven,eclipse installed
   Below you will find some information on how to perform common tasks.
-
-Table of Contents
-Installation Scripts
-npm install
-npm start
-Supported Browsers
-Available Scripts
+  
+## Installation Scripts
 After cloning/downloading project
+- Open eclipse/sts and import maven project
+- From command promt, Go to react app folder 
+     example: C:\go\to\folder\SpringBootMVCWithReactRouter\src\main\resources\react-code
+- run npm install. This will download all the required modules
+- run npm run dev. This will run react app on port 8080
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- If we are calling any APIs in spring boot app then run spring boot app. It should be runnning in different port.
+  we can configure port in application.properties file
+- To bundle the react app, run `npm run prod` this will generate files in build folder.
+- Copy these files into static folder under resources and restart spring boot app
+- Open [http://localhost:8888](http://localhost:8888), it should open index.html by default.
+- By default spring MVC looks for index.html, if html file name is different then you can have controller or view controller in config to forward request to respective html files
 
-npm install
-- run npm install in backend/api-server folder to install all required Modules.
-- run npm install in frontend folder to install all required Modules.
-npm start
-- run npm start in backend/api-server folder to start backend Server
-- run npm start in frontend folder to start frontend server
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+## Happy Learning 
