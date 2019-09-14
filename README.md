@@ -27,4 +27,4 @@ After cloning/downloading project
 - Open [http://localhost:8888](http://localhost:8888), it should open index.html by default.
 - By default spring MVC looks for index.html, if html file name is different then you can have controller or view controller in config to forward request to respective html files
 
-## Happy Learning 
+#Cheers!!
